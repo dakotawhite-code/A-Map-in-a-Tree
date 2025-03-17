@@ -1,4 +1,3 @@
-
 class SplayNode {
     String key;
     String value;
@@ -126,6 +125,7 @@ class TreeMap {
     }
     public static void main(String[] args) {
         TreeMap map = new TreeMap();
+        
         map.insert("keyOne", "valueOne");
         map.insert("keyTwo", "valueTwo");
         map.insert("keyThree", "valueThree");
